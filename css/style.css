@@ -180,7 +180,7 @@ body {
 
 .audio {
     width: 100%;
-    height: calc(var(--unit)*12);
+    height: calc(var(--unit)*15);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +188,7 @@ body {
 
 .audio__a {
     width: 50%;
-    height: 30%;
+    height: 20%;
 }   
 
 .span-write-2 {

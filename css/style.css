@@ -57,17 +57,19 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: red; 
 }
 
 .header__name--add {
-    font-size: calc(var(--unit)*2.5);
-    font-family: "Mrs Saint Delafield", sans-serif;
+    font-size: calc(var(--unit)*1.9);
+    font-family: Courier New;
     position: absolute;
     top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-5deg);
+    transform: translate(-50%, -50%) ;
     width: calc(var(--unit)*15);
     text-align: center;
+    color: red;
 }
 
 .intro {

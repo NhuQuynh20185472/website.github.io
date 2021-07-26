@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&amp;display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SUN - Đào Như Quỳnh </title>
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" title="Style - CSS" type="text/css" />
+    <script src="../kit.fontawesome.com/29a0e49d27.js" crossorigin="anonymous"></script>
+    <script type=”text/javascript”>
+        function play() {
+        if (document.getElementById("audio").play()) {
+        document.getElementById("video").pause();
+        }
+        if (document.getElementById("video").play()) {
+        document.getElementById("audio").pause();
+        }
+        document.getElementById("hihi").innerHTML = "Xin chào";
+        }
+    </script>
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="header__box header__personality">
+            <p class="header__personality--para">Cục súc </p>
+            <p class="header__personality--para">Dịu dàng</p>
+            <p class="header__personality--para">Ngoan ngoãn</p>
+        </div>
+        <div class="header__box header__name">
+            <p class="header__name--title">SUN</p>
+            <p class="header__name--add"> Đào Như Quỳnh </p>
+        </div>
+        <div class="header__box header__personality">
+            <p class="header__personality--para">Nội tâm</p>
+            <p class="header__personality--para">Hay cười</p>
+            <p class="header__personality--para">Hiểu chuyện</p>
+        </div>
+    </header>
+    
+    <section class="intro">
+        <div class="intro__box intro__banner"></div>
+        <div class="intro__avatar"></div>
+        <div class="intro__box intro__para">
+            <div class="intro__para--none"></div>
+            <div class="intro__para--blog">
+                <div class="intro__para--blog-info">
+                    <p class="intro__para--blog-name">Đào Như Quỳnh </p>
+                    <p class="intro__para--blog-tich"><i class="fa fa-check-circle"></i></i></p>
+                </div>
+                <div class="intro__para--blog-box">
+                    <p class="intro__para--blog-item intro__para--blog-write-1">
+                         Xinh đẹp - May Mắn - Thành công - Nhiều tiền<br /><br />
+                        <span class="span-write-1">Beauty - Lucky - Success - Wealthy</span>
+                    </p>
+                    <br />
+                    <p class="intro__para--blog-item intro__para--blog-write-2">
+                        Thanh xuân là đoạn chuyện cũ muốn viết thành truyện mà chẳng thể đặt bút. Có những nhân vật không dám nhớ lại, sợ viết ra rồi sẽ làm thay đổi cả hương vị của câu chuyện, cuối cùng cũng có một cái mở đầu là một cái kết thúc.<br />
+                        <span class="span-write-2">Năm tháng ấy, vì một người nói thích màu xanh. Mà đem lòng yêu luôn cả bầu trời</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="audio">
+        <audio class="audio__a" id="audio" onclick="play()" controls="controls" preload="preload">
+            <source src="audio/audio.mp3" type="audio/mpeg" />
+        </audio>
+        <br />
+        <br />
+    </section>
+    
+    <section class="image" id="hihi">
+        <div class="image__left">
+            <p class="image__left--title">Thanh Xuân</p>
+            <p class="image__left--para">
+                “Đi qua những năm tháng Bách Khoa, ta mới biết tuổi trẻ đáng trân trọng như thế nào. 
+				Trân trọng, không hẳn là vì có những lúc khó khăn tưởng chừng như gục ngã mà đơn giản là vì ta đã làm tất cả những điều đó cùng ai… 
+				Không muốn biết Bách Khoa cho mình bao nhiêu, lấy đi những gì, chỉ biết rằng tuổi trẻ có Bách Khoa và chắc chắn sẽ không bao giờ quên điều đó.” 
+            </p>
+        </div>
+        <div class="image__right">
+            <div class="image__right--item image__right--1"></div>
+            <div class="image__right--item image__right--2"></div>
+            <div class="image__right--item image__right--3"></div>
+        </div>
+    </section>
+    
+    <section class="image-2">
+        <div class="image__box">
+            <span style="--i:1;"><img src="img/nq1.jpg" /></span>
+            <span style="--i:2;"><img src="img/nq2.jpg" /></span>
+            <span style="--i:3;"><img src="img/nq3.jpg" /></span>
+            <span style="--i:4;"><img src="img/nq4.jpg" /></span>
+            <span style="--i:5;"><img src="img/nq5.jpg" /></span>
+            <span style="--i:6;"><img src="img/nq6.jpg" /></span>
+            <span style="--i:7;"><img src="img/nq7.jpg" /></span>
+            <span style="--i:8;"><img src="img/nq8.jpg" /></span>
+        </div>
+        <p class="image__lax image__lax-1">Đào Như Quỳnh</p>
+        <p class="image__lax image__lax-2">Đào Như Quỳnh</p>
+        <p class="image__lax image__lax-3">13/09/2000</p>
+    </section>
+    
+    <section class="video">
+        <video class="video__vid" id="video" onclick="play()" controls="controls" preload="preload" poster="img/nq1.jpg" loop="loop">
+                <source src="video/tiktok.mp4" type="video/mp4"/>
+        </video>
+        <div class="video__para">
+            Nhìn lại năm 17 tuổi tôi chẳng thích hay rung động bất cứ ai trong trường. Không được là nữ chính trong thanh xuân tươi đẹp ấy.
+			Mình chẳng thể có nổi một mối tình hay một lời hứa hẹn thanh xuân với ai cả. Thanh xuân của mình là để ngắm thanh xuân người khác.
+            <br /><br />
+            Nhưng nhiều lúc nghĩ thanh xuân của mình thế là đủ, mình không có người yêu hay crush nhưng có Bách Khoa là nguồn động lực cố gắng từng ngày.
+			Và giờ thì mình đã đạt được điều mình mong muốn...
+        </div>
+    </section>
+    
+    <section class="image-3">
+        <div class="container">
+            <div class="card" style="--i:-1">
+               <div class="box">
+                  <div class="content" style="--j:1">
+                     <h2>01</h2>
+                     <p>Trong kẽ hở của thời gian và hiện thực, tuổi xuân cũng như sắc đẹp, mỏng manh như trang giấy bị gió hong khô.</p>
+                     <a>Xinh đẹp</a>
+                  </div>
+               </div>
+            </div>
+         
+            <div class="card" style="--i:0">
+                <div class="box">
+                    <div class="content" style="--j:2">
+                    <h2>02</h2>
+                    <p>May mắn là tuổi Thanh xuân của bạn chỉ có người ấy. Mà tiếc nuối cũng là cả Thanh xuân của bạn mới có được người ấy.</p>
+                    <a>May mắn</a>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="card" style="--i:1">
+                <div class="box">
+                    <div class="content" style="--j:3">
+                        <h2>03</h2>
+                        <p>Tuổi Thanh xuân là chuyến tàu đẹp nhất của mỗi đời người. Cũng vì thế mà con người ta đặt thật nhiều ước mơ bồng bềnh trên đó.</p>
+                        <a>Nhiều tiền</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="click">Click để xem...</div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+        <br />
+        <div class="footer__all">
+            <div class="footer__info">
+                <p class"footer__info--zalo">Zalo: <a>Đoán xem!</a></p>
+                <p class"footer__info--fb">Facebook: <a href="https://www.facebook.com/quynh.sami.2000">Minh Tâm</a></p>
+            </div>
+            <div class="footer__info">
+                <p class"footer__info--gmail">Gmail: <a href="quynh.dn185472@sis.hust.edu.vn">quynh.dn185472@sis.hust.edu.vn</a></p>
+                <p class"footer__info--address">Address: Hanoi University of Science & Technology (HUST)</p>
+            </div>
+            <div class="footer__brand">
+                <img class="footer__brand--logo" src="https://scontent.fhan3-1.fna.fbcdn.net/v/t1.6435-9/121243083_144264834068016_8644654345833236530_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=DTNQU_A2vyUAX-fiutl&_nc_ht=scontent.fhan3-1.fna&oh=66c60a0cbb6cd60db46f4f8507d1164e&oe=6123EB09 " alt="Logo" />
+            </div>
+        </div>
+        <br />
+        <div class="footer__copyright">© Copyright belongs to Như Quỳnh - MI2 - K63 - HUST</div>
+        <br /> 
+    </footer>
+</body>
+
+
+
+</html>

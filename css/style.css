@@ -94,7 +94,7 @@ body {
 }
 
 .intro__avatar {
-    background: urL("../img/nq1.jpg");
+    background: urL("../img/nq3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: calc(var(--unit)*-4) calc(var(--unit)*-3);

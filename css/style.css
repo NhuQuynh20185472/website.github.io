@@ -57,7 +57,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red; 
+	color: red;
 }
 
 .header__name--add {
@@ -66,10 +66,10 @@ body {
     position: absolute;
     top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%) ;
+    transform: translate(-50%, -50%);
     width: calc(var(--unit)*15);
     text-align: center;
-    color: red;
+	color:red;
 }
 
 .intro {
